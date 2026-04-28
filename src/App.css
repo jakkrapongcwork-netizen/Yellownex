@@ -1,3 +1,4 @@
+@import "tailwindcss";
 /* การจัดวาง Messaging ไว้มุมขวาล่าง */
 .messaging-container {
   position: fixed;
