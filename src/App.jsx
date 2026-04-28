@@ -2,6 +2,9 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
+
+import StartPost from './Components/StartPost';
+
 import './App.css'
 import SuggestedPeople from './Components/SuggestedPeople'
 
@@ -120,6 +123,15 @@ function App() {
       <div className="ticks"></div>
       <section id="spacer"></section>
     </>
+  )
+}
+
+function MainFeed() {
+  return (
+    <div className="middle-column">
+      <StartPost />
+
+    </div>
   )
 }
 
